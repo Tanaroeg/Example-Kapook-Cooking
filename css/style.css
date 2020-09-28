@@ -1,0 +1,63 @@
+/* CSS Document */
+@font-face {
+	font-family: Prompt;
+	src: url("../fonts/Prompt-Regular.ttf")
+}
+body {
+	font-family: "Prompt";
+}
+.topbar {
+	background-color: #22b573;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+a.link-white {
+	color: #fff;
+	position: relative;
+	top: 12px;
+}
+a.link-white:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+.navbar-default {
+	background-color: #19A466;
+	border: #19A466;
+	border-radius: 0;
+}
+a.dropdown-toggle {
+	color: #fff!important;
+}
+a.dropdown-toggle:hover {
+	color: #000!important;
+}
+a.dropdown-toggle:focus {
+	color: #000!important;
+}
+li.dropdown:hover {
+	background-color: #fff;
+}
+.navbar-nav > .active > a{
+	background-color: #fff!important;
+}
+.grey-bg {
+	background-color: rgba(58,58,58,1.00);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	color: #fff;
+}
+.grey-bg a {
+	color: #fff;
+}
+.footer-3-column {
+	margin-top: 25px;
+	background-color: #19A466;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	font-size: 1.1em;
+}
+.footer-3-column a{
+	color: #fff;
+}
